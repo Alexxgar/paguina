@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>portada o bienvenida a la escuela</title>
+
+<link rel="stylesheet" href="estilo.css"
+</head>
+<body background="imagenes/fonfopaguina.jpg"
+<bgsound src="sonido/portada.mp3" loop="1">
+<center><h3>INSTITUTO POLITECNICO;CINCO NACIONAL</h3></center><br>
+
+<p align="center"><font face="verdana" size="4" color="black">Bienvenidoa la paguina wed del c.e.c.y;CUAUHTEMOC</font><p>
+
+<p align="justify"><font face="verdana" size="3" color="#000000">se te hace la mas atenta invitacion para que visitis tu centro de estudio cientifico y tecnologico no.7, del nivel medio superior del instituto politecnico nacional,para que observes la execelencia infraestructura einstalaciones tecnologicas ,cientificas, culturales y deportivas . Ademas conozca las pertinentes y actualidad planta docenete, personal de apoyo y administrativo que atendera como mucho agrado tus demanda academicaas, culturales y sociales.</font><p>
+
+<p align="center">
+<p align="center"><font face="verdana" size="3" color="#993300">visita nustras instalaciones .<font></p>
+<img src="file:///C|/Users/PC/Desktop/descarga.jpg" width="259" height="194" alt="PATIO" longdesc="http://https://www.google.com/imgres?imgurl=https%3A%2F%2Fcadenaser00.epimg.net%2Fser%2Fimagenes%2F2018%2F09%2F16%2Fhora_14_fin_de_semana%2F1537098106_159055_1537099054_noticia_normal.jpg&imgrefurl=https%3A%2F%2Fcadenaser.com%2Fprograma%2F2018%2F09%2F16%2Fhora_14_fin_de_semana%2F1537098106_159055.html&tbnid=3LeTCxYwb7Y3OM&vet=12ahUKEwjp55XjuMDyAhVBMd8KHaM3Ao0QMygEegUIARDGAQ..i&docid=0r5Khw9gF_aBrM&w=1080&h=575&q=patio%20de%20un%20colegio&ved=2ahUKEwjp55XjuMDyAhVBMd8KHaM3Ao0QMygEegUIARDGAQ">
+
+<p align="center"><font face="verdana" size="3" color="black"><b><u>Te esperamos con muvho gusto.</u></b></b><hr />
+<hr />
+
+<table width="200" border="1" summary="hay 9 bloquetes en total">
+  <caption>
+    clasificacion de los bloques
+  </caption>
+  <tr>
+    <th scope="col">1a </th> 
+    <th scope="col">2b</th>
+    <th scope="col">3b</th>
+  </tr>
+  <tr>
+    <td>Matematicas;</td>
+    <td>ingles</td>
+    <td>sociales </td>
+  </tr>
+  <tr>
+    <td>etica</td>
+    <td>informatica</td>
+    <td>emprendimiento</td>
+  </tr>
+</table>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1281.8507078414657!2d-74.94741548879702!3d11.019740256180288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42a42d49167ab%3A0xf5546b42fa9b7684!2sCastillo%20de%20Salgar!5e1!3m2!1ses!2sco!4v1629496430423!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe><hr />
+
+
+
+
+
+
+
+
+
+
+
+
+</body
+
+
+
+</html>
+
