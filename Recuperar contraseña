@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+   
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+       
+        .blurry-layer {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 50%;
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(5px);
+            z-index: 2;
+        }
+
+       
+        .circle {
+            width: 100px;
+            height: 100px;
+            background-color: #FFA500;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%; 
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 1; 
+        }
+        .google-login-button {
+            background-color: #FFA500; 
+            color: white; 
+            width: 100%;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: center;
+            letter-spacing: 0.02em;
+            border: none;
+            cursor: pointer;
+            padding: 12px;
+            border-radius: 5px;
+        }
+
+        .google-login-button:hover {
+            background-color: #FF7C32; 
+        }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen flex">
+    <div class="w-1/2 bg-gray-300 p-3 md:p-16 lg:p-24 relative hidden md:block">
+       
+        <div class="blurry-layer"></div>
+
+       
+        <div class="circle"></div>
+    </div>
+    <div class="w-1/2 bg-white p-8 md:p-16 lg:p-24 flex flex-col justify-center items-center">
+  <img src="data:image/png;base64,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" class="mb-4">
+    <h1 class="text-4xl font-semibold mb-8">Solicitar contraseña</h1>
+    <form class="w-full max-w-sm">
+        <div class="text-left">
+            <p class="text-lg">Plataforma de Conalca SAS</p>
+        </div>
+        <div class="mb-4"></div>
+        <div class="relative">
+            <label for="email" class="absolute left-3 -top-2.5 text-gray-600 bg-white px-1">E-mail</label>
+            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline pr-10 pl-3">
+            <div class="absolute inset-y-0 right-0 pr-3 flex items-center">
+                <button id="toggleEmail" type="button" class="text-gray-400 focus:outline-none">
+                    <i id="emailIcon" class="far fa-eye-slash"></i>
+                </button>
+            </div>
+        </div>
+        
+        <div class="flex justify-center mt-5">
+            <button type="button" class="google-login-button">
+                    Ingresar
+            </button>
+        </div>
+       
+       
+       
+       <div class="mt-8 flex justify-center space-x-4">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/ITR.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/CARGA.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/CARGA.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/t-masivo.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/break-bulk.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/hidros.png"  class="w-12 h-12 mx-2">
+            <img src="https://conalca.co/wp-content/uploads/2022/11/DAT.png"  class="w-12 h-12 mx-2">
+        </div>
+
+    </form>
+</div>
+</body>
+</html>
