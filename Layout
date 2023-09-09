@@ -29,8 +29,18 @@
             <div class="flex items-center justify-between mb-4">
                 <h2 class="text-2xl font-bold">Nuevas Solicitudes</h2>
                 <div class="relative">
-                    <input type="text" id="searchInput" placeholder="Buscar..." class="pl-10 px-2 py-1 border border-gray-300 rounded-lg">
-                    <i class="fas fa-search text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2"></i>
+                    
+                <div class="flex flex-col sm:flex-row items-center">
+    <div class="relative">
+    <i class="fas fa-search text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2 text-sm sm:text-base"></i>
+        <input type="text" id="searchInput" placeholder="Buscar..." class="pl-10 sm:pl-12 px-2 py-1 border border-gray-300 rounded-lg">
+    </div>
+    <div class="relative mt-2 sm:mt-0">
+        <span class="text-gray-400 absolute right-3 top-1/2 transform -translate-y-1/2">▼</span>
+        <input type="text" id="filterInput" placeholder="Filtrar:" class="pl-10 sm:pl-4 px-2 py-1 border border-gray-300 rounded-lg">
+    </div>
+</div>
+
                 </div>
             </div>
             <label>
@@ -71,6 +81,8 @@
                 <span class="ml-6">Nombre empresa</span>
                 <span class="ml-6"><button class="custom-button">Activar</button></span>
                 <span class="ml-14">$6.000.000</span>
+                <span class="ml-14"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqzcIZtVPHCrEM_UiE1B2l1dWCSxJGDS5cu0mNx4MFCkOXXMS" alt="" width="31" height="31" class="inline-block"></span>
+                
                
                 <p style="margin-bottom: 20px;"></p>
                 <p><p style="margin-bottom: 20px;"></p>
@@ -78,14 +90,17 @@
                 <span class="ml-6">ID34535435</span>
                 <span class="ml-6">Nombre empresa</span>
                 <button class="bg-green-500 hover:bg-green-600 text-white py-2 px-4 rounded-lg ml-4">Finalizada</button>
-                <span class="ml-5">$6.000.000</span></p></p>
+                <span class="ml-5">$6.000.000</span>
+                <span class="ml-14"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqzcIZtVPHCrEM_UiE1B2l1dWCSxJGDS5cu0mNx4MFCkOXXMS" alt="" width="31" height="31" class="inline-block"></span>
+
 
                 <p style="margin-bottom: 20px;"></p>
                 <input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor1" style="margin-right: 10px;">
                 <span class="ml-6">ID34535435</span>
                 <span class="ml-6">Nombre empresa</span>
                  <button class="bg-red-500 hover:bg-red-600 text-white py-2 px-4 rounded-lg ml-4">Rechazada</button>
-                <span class="ml-5">$6.000.000</span>
+                <span class="ml-4">$6.000.000</span>
+                <span class="ml-14"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBqzcIZtVPHCrEM_UiE1B2l1dWCSxJGDS5cu0mNx4MFCkOXXMS" alt="" width="31" height="31" class="inline-block"></span>
             </div>
             
            
@@ -115,7 +130,7 @@
         </div>
 
        
-        <div class="bg-white rounded-lg shadow-md p-4 relative">
+        <div class="bg-white rounded-lg shadow-md p-4 relative  lg:w-9/12 mb-4 box-content">
            
             <div class="flex items-center justify-between mb-4">
                 <h2 class="text-2xl font-bold">Solicitudes en Línea</h2>
@@ -126,12 +141,13 @@
             </div>
             <label>
                 <input type="checkbox" id="miCheckbox" name="miCheckbox" value="valor1" style="margin-right: 10px;">
-                <span class="ml-8">ID34535435</span>
-                <span class="ml-9">Nombre empresa</span>
-                <span class="ml-8">9213334354-2</span>
-                <span class="ml-8"><button class="custom-button">Activar</button></span>
-                <span class="ml-8">12,5M</span>
-                <span class="ml-8">Ver solicitud</span>
+                <span class="ml-12">ID34535435</span>
+                <span class="ml-12">Nombre empresa</span>
+                <span class="ml-12">9213334354-2</span>
+                <span class="ml-12"><button class="custom-button">Activar</button></span>
+                <span class="ml-12">12,5M</span>
+                <span class="ml-12">Ver solicitud</span>
+                <span class="ml-16"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0WhwxQgYyX7HzFUBklemQstqo_2fG46LGGPUuUhuvcH784q0o" alt="" width="31" height="31" class="inline-block"></span>
                 
 
             </label>
